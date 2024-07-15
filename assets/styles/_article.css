@@ -1,0 +1,31 @@
+/* Style section articles */
+.articles {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing);
+}
+
+@media screen and (width > 992px) {
+    .articles {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--grey);
+    border-radius: 5px;
+}
+
+article h3 {
+    margin-top: auto;
+    color: initial;
+}
+
+article img {
+    max-height: 150px;
+}

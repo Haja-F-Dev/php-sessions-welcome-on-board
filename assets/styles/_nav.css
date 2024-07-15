@@ -1,0 +1,33 @@
+/* Style the navigation menu */
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
+@media screen and (width > 992px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+
+nav .logo {
+    width: 60px;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav>ul>li>a {
+    padding: 1rem;
+    color: var(--primary-color-inverse);
+    text-decoration: none;
+}

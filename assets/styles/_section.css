@@ -1,0 +1,10 @@
+/* Style the main section */
+section.container {
+    margin-top: var(--spacing-2);
+    margin-bottom: var(--spacing-3);
+}
+
+section p {
+    max-width: 60ch;
+    margin-inline: auto;
+}

@@ -1,0 +1,12 @@
+:root {
+    --primary-color: #A306B6;
+    --primary-color-inverse: #fff;
+    --grey: #D9D9D9;
+    --danger: #FF0000;
+
+    --spacing: 1rem;
+    --spacing-2: calc(var(--spacing) * 2);
+    --spacing-3: calc(var(--spacing) * 3);
+
+    --border-radius: 1rem;
+}

@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    line-height: 1.5;
+    background-color: #fff;
+    font-family: "Source Sans 3", Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+    font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    color: var(--primary-color);
+}
+
+a.btn,
+button {
+    padding: .25rem 1.75rem;
+    background-color: var(--primary-color);
+    color: var(--primary-color-inverse);
+    border: none;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 var(--spacing);
+}

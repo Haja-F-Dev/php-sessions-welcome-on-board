@@ -1,0 +1,44 @@
+form {
+    max-width: 60ch;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+label,
+input,
+textarea,
+select {
+    display: block;
+    width: 100%;
+    margin-bottom: calc(var(--spacing) / 2);
+}
+
+input,
+textarea,
+select {
+    padding: 1rem;
+    background-color: var(--grey);
+    border: none;
+    border-radius: calc(var(--border-radius) / 2);
+    margin-bottom: var(--spacing);
+}
+
+label:has(+ :required) {
+    width: fit-content;
+    &::after {
+        content: "*";
+        margin-left: 0.25rem;
+        color: var(--danger);
+    }
+}
+
+select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(136, 145, 164)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-position: center right 0.75rem;
+    background-size: 1rem auto;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,12 @@
+/* Style the footer */
+footer {
+    margin-top: auto;
+    padding: var(--spacing);
+    background-color: var(--grey);
+    text-align: center;
+    font-size: .875rem;
+}
+
+footer p {
+    margin: 0;
+}
